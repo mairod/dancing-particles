@@ -1,0 +1,30 @@
+{
+  "name": "creative-boilerplate",
+  "version": "0.2.0",
+  "config": {
+    "port": "3000"
+  },
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "https": "webpack-dev-server --port $npm_package_config_port --https",
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "node-sass": "^4.5.0",
+    "normalize-wheel": "^1.0.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.2",
+    "spotify-web-api-js": "^0.22.0",
+    "style-loader": "^0.13.2",
+    "three": "^0.85.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "paths": {},
+  "devDependencies": {}
+}
